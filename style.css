@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background-color: rgb(10, 10, 10);
+    color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    font-family: sans-serif, monospace;
+}
+
+header {
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.buttonforsharing {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+}
+
+.buttonforsharing svg {
+  margin-left: 12px;
+  margin-top: 10px;
+  color: rgb(0,0,0);
+}
+
+.container {
+    width: 91%;
+    max-width: 688px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tile {
+    width: 100%;
+    height: 56px;
+    background-color: rgb(40, 40, 40);
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(240,240,240)
+}  
+
+
+h1,{
+  font-size: 20px;
+  margin-bottom: 30px;
+}   
+
+
+.image-con {
+  height: 96px;
+  width:96px;
+  border-radius: 48px;
+  overflow: hidden;
+  background-color: rgb(255,179,102);
+}
+
+.image-con img{
+  height: 100%;
+}  
+
+
+.tileshare {
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb (255,179,102);
+}  
+
+.tileshare svg {
+  margin-left: 12px;
+  margin-top: 10px;
+}  
