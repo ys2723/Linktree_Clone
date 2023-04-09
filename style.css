@@ -1,97 +1,80 @@
-body {
-    margin: 0px;
-    padding: 0;
-    background-color: rgb(10, 10, 10);
-    color: rgb(240, 240, 240);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 25%;
-    padding-right: 25%;
-    
-    font-family: sans-serif, monospace;
+body{
+    background-color: rgb(5, 29, 52);
 }
 
-header {
-    width: 95%;
-    max-width: 1000px;
-    display: flex;
-    justify-content: flex-end;
-    padding: 12px;
-    margin-top: 15px;
-}
-
-.buttonforsharing {
-    width: 40px;
+.top-invisible-box{
+    margin: 0% 0% 0% 0%;
     height: 40px;
-    border-radius: 20px;
-    background-color: rgb(0, 0, 0);
-}
+} 
 
-.buttonforsharing svg {
-  margin-left: 6px;
-  margin-top: 5px;
-  color: rgb(0,0,0);
-}
-
-.container {
-    width: 91%;
-    max-width: 900px;
-    margin: 10px;
+.round-white-circle{
+    margin-left: 72%;
+    margin-top: 1.6%;
+    height: 38px;
+    width: 38px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    border-radius: 19px;
+    background-color: aliceblue ;
 }
 
-img:hover{
-    size: 120%;
+.apple-share-image{
+    padding-left: 4px;
+    padding-top: 3px;
+    height: 30px;
+    width: 30px;
 }
 
+.profile-picture{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 46.5%;
+}
 
-.tile {
-    width: 100%;
-    height: 56px;
-    background-color: rgb(40, 40, 40);
-    margin: 7px;
-    border-radius: 17px;
+.Name{
+    margin-left: 45%;
+    font-size: 21px;
+    font-family: sans-serif;
+    color: aliceblue;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.username{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgba(240, 248, 255, 0.509);
+    margin-left: 45.9%;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.link-box{
+    font-family: sans-serif;
+    height: 50px;
     display: flex;
-    justify-content: space-between;
+    background-color: black; 
+    border-radius: 3px;
+    margin: 0% 29% 1.3% 29%;
+    text-decoration: none;
+    color: aliceblue;
+    align-items:flex-end;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(240,240,240)
-}  
-
-
-h1{
-  font-size: 35px;
-  margin-bottom: 30px;
-}   
-
-
-.image-con {
-  height: 96px;
-  width:96px;
-  border-radius: 48px;
-  overflow: hidden;
-  background-color: rgb(255,179,102);
+.link-box:hover{
+    transform: scale(1.06);
+    transition-timing-function: ease;
+    transition-duration: 300ms;
 }
 
-.image-con img{
-  height: 100%;
-}  
-
-
-.tileshare {
-  margin: 8px;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: rgb (255,179,102);
-}  
-
-.tileshare svg {
-  margin-left: 5px;
-  margin-top: 3px;
-}  
+.text-in-box{
+    /* Pivoting element, commenting this so that I do not forget how to change the pivot of an element from left to center.*/
+    /* if you;re reading this, 
+    I wanna tell you that this pivoting took me a lot of time, 
+    asked multiple people, net searches, chat GPT etc etc, 
+    but in the end had to figure it out myself
+    maybe because I didn't know how to frame this question. */
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+}
