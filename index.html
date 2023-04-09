@@ -2,59 +2,82 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Linktree Clone</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   
 
-    <header>
-        <a href = "https://linktr.ee/tripathi.yash"><div class="buttonforsharing">
-           <svg style="color: rgb(0, 0, 0)" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" fill="white"></path> </svg>
-             
-        </div>
-    </a>
-    </header>
-
-    <div class="container">
-        <div class="image-con">
-            <img 
-                 src="https://avatars.githubusercontent.com/u/103556790?v=4" 
-                 alt="Yash Tripathi's Profile Picture" />
-        </div>
-        <h1>Yash Tripathi</h1>
-        <h2>@tripathi.yash</h2>
+    <!-- Top div with white button and apple share logo -->
+    <div class = "top-invisible-box"> 
+        <a class = "round-white-circle" href ="https://linktr.ee/tripathi.yash" target="_blank">
+            <img class = "apple-share-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ei-share-apple.svg/1200px-Ei-share-apple.svg.png">
+          </a>   
     </div>
-  
 
-    <a class="tile" href="https://www.linkedin.com/in/yash-tripathi-722263196/">
-        <div class="icons"></div>
-        <p>LINKEDIN</p>
-        <div class="tileshare">
-            <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" fill="white"></path> </svg>
-        </div>
+
+    <!-- Profile Picture -->
+    <img class = "profile-picture" src = "https://avatars.githubusercontent.com/u/103556790?v=4" alt="Yash's profile Picture">
+    
+    
+    <!-- Name and username sectionnnnnnnnnnnnnnnnnnnnnnn-->
+    <p class = "Name"><b>Yash Tripathi</b></p>
+    <p class = "username">@tripathi.yash</p>
+
+
+    <!-- Link Boxes Section, here we go, shall I put 10 link boxes like my original linktree or just three for show? Dunno, I'll probably keep 10. -->
+    <!-- BOX 1 -->
+    <a class = "link-box" href="https://www.linkedin.com/in/yash-tripathi-722263196/" alt = "Yash's LinkedIn" target="_blank">
+        <p class = "text-in-box"> LINKEDIN </p>
+    </a>
+    
+    <!-- BOX 2 -->
+    <a class = "link-box" href="https://github.com/ys2723" alt = "Yash's GitHub" target="_blank">
+        <p class = "text-in-box"> GITHUB </p>
     </a>
 
-
-    <a class="tile" href="https://github.com/ys2723">
-        <div class="icons"></div>
-        <p>GITHUB</p>
-        <div class="tileshare">
-            <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" fill="white"></path> </svg>
-            
-        </div>
+    <!-- BOX 3 -->
+    <a class = "link-box" href="https://medium.com/@yashtripathi2205" alt = "Yash's Medium" target="_blank">
+        <p class = "text-in-box"> MEDIUM </p>
     </a>
 
+    <!-- BOX 4 -->
+    <a class = "link-box" href="https://www.instagram.com/trips.yash/" alt = "Yash's Instagram" target="_blank">
+        <p class = "text-in-box"> INSTAGRAM </p>
+    </a>
 
-    <a class="tile" href="https://medium.com/@yashtripathi2205">
-        <div class="icons"></div>
-        <p>MEDIUM</p>
-        <div class="tileshare">
-           <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" fill="white"></path> </svg>
-                
-        </div>
-    </a> 
+    <!-- BOX 5 -->
+    <a class = "link-box" href="https://open.spotify.com/user/7a606hdl49pvzfe52jcr5kram?si=ffd0736933374631" alt = "Yash's Spotify" target="_blank">
+        <p class = "text-in-box"> SPOTIFY </p>
+    </a>
 
+    <!-- BOX 6 -->
+    <a class = "link-box" href="https://twitter.com/bad_dictator" alt = "Yash's Twitter" target="_blank">
+        <p class = "text-in-box"> TWITTER </p>
+    </a>
+
+    <!-- BOX 7 -->
+    <a class = "link-box" href="https://www.snapchat.com/add/trips.yash?share_id=XMYiPauAGMM&locale=en-US" alt = "Yash's Snapchat" target="_blank">
+        <p class = "text-in-box"> SNAPCHAT </p>
+    </a>
+
+    <!-- BOX 8 -->
+    <a class = "link-box" href="https://www.facebook.com/profile.php?id=100020047476897" alt = "Yash's Facebook" target="_blank">
+        <p class = "text-in-box"> FACEBOOK </p>
+    </a>
+
+    <!-- BOX 9 -->
+    <a class = "link-box" href="https://www.hackerrank.com/RA2111033010106?hr_r=1" alt = "Yash's HackerRank" target="_blank">
+        <p class = "text-in-box"> HACKERRANK </p>
+    </a>
+
+    <!-- BOX 10 -->
+    <a class = "link-box" href="https://leetcode.com/yashtripathi22/" alt = "Yash's LeetCode" target="_blank">
+        <p class = "text-in-box"> LEETCODE </p>
+    </a>
+    
 </body>
 </html>
