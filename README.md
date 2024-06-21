@@ -5,4 +5,4 @@ Link: https://ys2723.github.io/Linktree_Clone/
 
 ## Clone Screenshot
 
-![Linktree Clone Screenshot](https://media.discordapp.net/attachments/806881514389766184/1094503287434252328/Screenshot_2023-04-09_113444.png?width=1177&height=662)
+![Linktree Clone Screenshot](https://i.postimg.cc/ZRShGTb7/Screenshot-16858.png)
